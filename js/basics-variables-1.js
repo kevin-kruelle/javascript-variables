@@ -26,4 +26,10 @@ const secondsPerWeek = secondsPerDay * 7;
 
 const secondsPerYear = secondsPerWeek * 52;
 console.log(secondsPerYear);
+const square = prompt("Input a number 1-10")
 
+console.log(Math.pow(square, 2))
+
+const circle = prompt("Input a number 1-10")
+
+console.log(Math.pow(circle, 2))
