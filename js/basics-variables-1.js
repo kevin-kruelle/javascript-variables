@@ -1,3 +1,5 @@
+/*
+
 const daysPerYear = 365;
 
 const hoursPerDay = 24;
@@ -6,7 +8,7 @@ console.log(hoursPerDay)
 
 console.log(daysPerYear);
 
-const hoursPerYear = daysPerYear * hoursPerDay;
+const hoursPerYear = daysPerYear * hoursPerDay; 
 
 console.log(hoursPerYear) 
 
@@ -33,3 +35,11 @@ console.log(Math.pow(square, 2))
 const circle = prompt("Input a number 1-10")
 
 console.log(Math.pow(circle, 2))
+
+*/
+
+const width = prompt('Give me a number value between 1 - 10')
+const height = prompt('Give me another number value between 10 - 20')
+
+ const rectangle = height * width;
+ console.log(rectangle)
